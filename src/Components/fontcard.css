@@ -1,0 +1,76 @@
+/* Existing styles for card */
+.card {
+    background-color: #1d1d1d;
+    height: 250px;
+    width: 450px;
+    margin: 1%;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden; /* Ensure the circular animation doesn't overflow */
+    position: relative; /* Position for the pseudo-element */
+    z-index: 1;
+}
+
+/* Pseudo-element for the circular animation */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: -10%;
+    width: 50px;
+    height: 50px;
+    background-color: #ec2c0c;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0); /* Initial scale */
+    transition: transform 0.5s ease-in-out;
+    z-index: 0; /* Smooth transition for scaling */
+}
+
+/* Hover styles for card */
+.card:hover::before {
+    transform: translate(-50%, -50%) scale(25);
+    z-index: -1;
+}
+.card:hover .font-name{
+    color: hsl(0, 0%, 11%);
+    transition: color 0.3s ease-in-out 0.2s;
+}
+.card:hover .font-header{
+    color: hsla(0, 0%, 11%, 0.8);
+    transition: color 0.3s ease-in-out 0.2s;
+}
+.card:hover .font-description{
+    color: hsla(0, 0%, 11%, 0.6);
+    transition: color 0.3s ease-in-out 0.2s;
+}
+
+.font-name{
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-family: 'Roboto Condensed';
+    text-align: right;
+    /* z-index: 10; */
+    /* margin-right: 5%; */
+}
+.font-header{
+    color: hsl(0, 0%, 80%);
+    font-family: 'Mohave';
+    text-align: left;
+    font-size: 35px;
+    z-index: 10;
+    /* margin-left: 5%; */
+    /* margin-top: 10%; */
+}
+.font-description {
+    color: hsla(0, 0%, 60%);
+    font-family: 'Mohave';
+    font-weight: 400;
+    text-align: left;
+    font-size: 16px;
+    z-index: 10;
+    /* margin-left: 5%; */
+    /* margin-top: 10%; */
+}
+.text-wrapper{
+    margin-top: 17.5%;
+}
