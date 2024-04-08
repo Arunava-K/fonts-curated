@@ -37,18 +37,18 @@ const PageLoader = () => {
     //     zIndex:-3
     // });
 
-    gsap.to(".bar", 1.5, {
+    gsap.to(".bar", 1.25, {
         delay:0.5,
         height:0,
         stagger:{
-            amount:0.5,
+            amount:0.25,
         },
         ease: "power4.inOut",
         zIndex:-2,
     });
 
     gsap.to(".overlay", 0.1, {
-        delay: 3,
+        delay: 1.5,
         zIndex: -3,
     })
   }, []);
