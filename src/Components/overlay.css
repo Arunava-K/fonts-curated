@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+.overlay{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+}
+
+.bar{
+    width: 10vw;
+    height: 105vh;
+    background: #0c0c0c;
+    font-family: 'Roboto Condensed';
+    font-size: 200%;
+    display: flex;
+    color: #ec2c0c;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 5;
+    color: #ec2c0c;
+    padding: 0.2em 0.4em;
+    font-size: 10vw;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+}

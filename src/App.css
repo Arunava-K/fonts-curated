@@ -7,7 +7,7 @@
   height: auto;
   display: flex;
   justify-content: space-between;
-  /* padding-left: 20px; */
+  padding-top: 1%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,21 +15,22 @@
   font-family: 'Roboto Condensed';
   position: absolute;
   color: #ec2c0c;
-  font-size: 280px;
+  /* font-size: 280px; */
+  font-size: 13.5vw;
   font-weight: 300;
   letter-spacing: -10px;
   margin-top: -5%;
-  z-index: 3;
+  margin-left: 2.5%;
+  z-index: 1;
 }
 .hero-description{
   font-family: 'Roboto Condensed';
   color: hsla(0, 0%, 60%);
   font-size: 32px;
   text-align: left;
-  /* position: absolute; */
-  /* margin-top: 225px; */
-  margin-left: 55px;
-  width: 450px;
+  margin-top: 20%;
+  margin-left: 6%;
+  max-width: 650px;
   text-wrap: wrap;
 }
 .hero-box-description{
@@ -37,10 +38,9 @@
   color: hsla(0, 0%, 60%);
   font-size: 32px;
   text-align: right;
-  /* position: absolute; */
-  /* margin-top: 30%; */
   margin-left: 80px;
   margin-right: 40px;
+  margin-bottom: 5%;
   text-wrap: wrap;
 }
 .hero-box{
@@ -51,8 +51,11 @@
   background-color: #1D1D1D;
   text-align: right;
   justify-content: right;
-  /* margin-left: 50%; */
-  /* margin-top: 5%; */
+  margin-top: 7.5%;
+  margin-right: 2.5%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 .card-holder{
   /* background-color: blue; */
@@ -67,9 +70,11 @@
   margin-right: auto;
 }
 .divider{
-  max-width: 1600px;
+  max-width: 1400px;
+  width: 80%;
   height: 2px;
   background-color: #ec2c0c;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
 }
