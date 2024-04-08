@@ -1,4 +1,3 @@
-import GoogleFontLoader from 'react-google-font-loader';
 import './App.css'
 import Fontcard from './Components/fontcard'
 import Overlay from './Components/overlay'
@@ -6,8 +5,8 @@ function App() {
   return (
     <>
     <div>
-    <GoogleFontLoader fonts={[{ font: 'Roboto Condensed', weights: [300, 400, 700] }]} />
-    <GoogleFontLoader fonts={[{ font: 'Mohave', weights: [400, 700] }]} />
+    {/* <GoogleFontLoader fonts={[{ font: 'Roboto Condensed', weights: [300, 400, 700] }]} />
+    <GoogleFontLoader fonts={[{ font: 'Mohave', weights: [400, 700] }]} /> */}
     </div>
     <Overlay/>
       <section className='hero-section'>
