@@ -11,11 +11,9 @@ function App() {
     <Overlay/>
       <section className='hero-section'>
           <div className='hero-text'>TYPEFACE</div>
-          <div className='hero-description'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat cursus dolor, at conguevelit mattis a.
-        </div>
+          <div className='hero-description'>Typeface Matters:Elevate Your Message.Define Your Brand.Capture Attention with Style.</div>
         <div className='hero-box'>
-          <div className='hero-box-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi consequat cursus dolor, at conguevelit mattis a.</div>
+          <div className='hero-box-description'>A good typeface enhances readability, conveys emotion, and strengthens brand identity while the tone, capturing attention & improving overall design.</div>
         </div>
       </section>
       <div className='divider'></div>
