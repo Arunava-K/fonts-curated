@@ -1,6 +1,6 @@
-import './App.css'
-import Fontcard from './Components/fontcard'
-import Overlay from './Components/overlay'
+import './Home.css'
+import Fontcard from '../../Components/FontCard_Small/fontcard_small'
+import Overlay from '../../Components/Vertical Overlay/vertical_overlay'
 function App() {
   return (
     <>
@@ -20,7 +20,6 @@ function App() {
 
       <section className='card-section'>
           <div className='card-holder'>
-            
             <Fontcard name ="Roboto"/>
             <Fontcard name ="Inter"/>
             <Fontcard name ="Montserrat"/>

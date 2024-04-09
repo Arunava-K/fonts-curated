@@ -1,5 +1,5 @@
-import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal } from 'react'
-import './fontcard.css'
+import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal} from 'react'
+import './fontcard_small.css'
 
 function card(props: { name: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined }) {
     return (

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import './overlay.css'; // Import the CSS file
+import './vertical_overlay.css'; // Import the CSS file
 
 const PageLoader = () => {
   const overlayRef = useRef(null);
