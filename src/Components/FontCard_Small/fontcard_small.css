@@ -31,17 +31,18 @@
     transform: translate(-50%, -50%) scale(25);
     z-index: -1;
 }
+
 .card:hover .font-name{
     color: hsl(0, 0%, 11%);
-    transition: color 0.3s ease-in-out 0.2s;
+    transition: color 0.2s ease-in-out 0.1s;
 }
 .card:hover .font-header{
     color: hsla(0, 0%, 11%, 0.8);
-    transition: color 0.3s ease-in-out 0.2s;
+    transition: color 0.2s ease-in-out 0.1s;
 }
 .card:hover .font-description{
     color: hsla(0, 0%, 11%, 0.6);
-    transition: color 0.3s ease-in-out 0.2s;
+    transition: color 0.2s ease-in-out 0.1s;
 }
 
 .font-name{
