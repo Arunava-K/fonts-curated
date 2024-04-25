@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom'; // Import useParams for URL parameters
 import './fontdetail.css';
+import Overlay from './Vertical Overlay/vertical_overlay'
 
 interface FontDetails {
   name: string;
@@ -22,6 +23,8 @@ function FontDetail(){
   };
 
   return (
+    <>
+    <Overlay/>
     <section className='font-detail-body'>
     <div className="font-detail">
       <h1>{fontDetails.name}</h1>
@@ -29,6 +32,7 @@ function FontDetail(){
       {/* Display other font details here (specimens, usage, etc.) */}
     </div>
     </section>
+    </>
   );
 }
 
