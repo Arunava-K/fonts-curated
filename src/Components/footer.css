@@ -1,0 +1,32 @@
+.footer-section{
+    max-width: 1600px;
+    height: 300px;
+    padding-bottom: 2%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    background-color: #1d1d1d;
+    text-align: center;
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.footer-text{
+    font-family: 'Roboto Condensed';
+    font-size: 12vw;
+    margin-top: 5%;
+    margin-right: 2.5%;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #ff4500, #ec2c0c); /* Adjust the colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* This will make the text color transparent */
+}

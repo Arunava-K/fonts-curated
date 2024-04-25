@@ -1,6 +1,8 @@
 import './Home.css'
 import Fontcard from '../../Components/FontCard_Small/fontcard_small'
 import Overlay from '../../Components/Vertical Overlay/vertical_overlay'
+import Footer from '../../Components/footer'
+
 function App() {
   return (
     <>
@@ -20,9 +22,18 @@ function App() {
 
       <section className='card-section'>
           <div className='card-holder'>
-            <Fontcard name ="Roboto"/>
-            <Fontcard name ="Inter"/>
+          {/* <Link to={`/fonts/Roboto`}>
+            <Fontcard name="Roboto" />
+          </Link>
+          <Link to={`/fonts/Inter`}>
+            <Fontcard name="Inter" />
+          </Link>
+          <Link to={`/fonts/Montserrat`}>
+            <Fontcard name="Montserrat" />
+          </Link> */}
             <Fontcard name ="Montserrat"/>
+            <Fontcard name ="Inter"/>
+            <Fontcard name ="Roboto"/>
             <Fontcard name ="Leauge Gothic"/>
             <Fontcard name ="Comic Sans"/>
             <Fontcard name ="Space Mono"/>
@@ -39,6 +50,7 @@ function App() {
           </div>
       </section>
 
+      <Footer></Footer>
     </>
   )
 }
