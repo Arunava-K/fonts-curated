@@ -1,7 +1,5 @@
 import { useParams } from 'react-router-dom'; // Import useParams for URL parameters
 import './fontdetail.css';
-import Overlay from './Vertical Overlay/vertical_overlay'
-
 interface FontDetails {
   name: string;
   description: string;
