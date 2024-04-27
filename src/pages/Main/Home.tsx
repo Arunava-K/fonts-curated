@@ -1,7 +1,9 @@
 import './Home.css'
 import Fontcard from '../../Components/FontCard_Small/fontcard_small'
 import Overlay from '../../Components/Vertical Overlay/vertical_overlay'
-import Footer from '../../Components/footer'
+import Footer from '../../Components/Footer_Section/footer'
+import Hero from '../../Components/Hero_Section/hero'
+
 
 function App() {
   return (
@@ -11,13 +13,16 @@ function App() {
     <GoogleFontLoader fonts={[{ font: 'Mohave', weights: [400, 700] }]} /> */}
     </div>
     <Overlay/>
-      <section className='hero-section'>
+      {/* <section className='hero-section'>
           <div className='hero-text'>TYPEFACE</div>
           <div className='hero-description'>Typeface Matters:Elevate Your Message.Define Your Brand.Capture Attention with Style.</div>
         <div className='hero-box'>
           <div className='hero-box-description'>A good typeface enhances readability, conveys emotion, and strengthens brand identity while the tone, capturing attention & improving overall design.</div>
         </div>
-      </section>
+      </section> */}
+
+      <Hero/>
+
       <div className='divider'></div>
 
       <section className='card-section'>

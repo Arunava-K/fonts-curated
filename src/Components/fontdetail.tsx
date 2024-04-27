@@ -24,7 +24,6 @@ function FontDetail(){
 
   return (
     <>
-    <Overlay/>
     <section className='font-detail-body'>
     <div className="font-detail">
       <h1>{fontDetails.name}</h1>
